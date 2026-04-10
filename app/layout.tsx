@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dhaaga.nayanamurthy.com"),
   title: "Dhaaga by Nayana | Handmade Crochet",
   description: "Handmade crochet flowers, plushies, coasters, accessories, and cute gifts made with love by Nayana.",
   openGraph: {
@@ -17,13 +18,17 @@ export const metadata: Metadata = {
     siteName: "Dhaaga by Nayana",
     images: [
       {
-        url: "/products/IMG_2433 Medium.jpeg",
+        url: "/logo.png",
         width: 1200,
-        height: 630,
+        height: 1200, // Logo is likely square
       },
     ],
     locale: "en_US",
     type: "website",
+  },
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
