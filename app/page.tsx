@@ -164,6 +164,9 @@ export default function Home() {
         {/* FOOTER */}
         <footer className={styles.footer}>
           <p>&copy; {new Date().getFullYear()} {siteConfig.brandName}. All rights reserved.</p>
+          <p className={styles.creditLine}>
+            Website handcrafted by <a href="https://typedbyme.puneeth.io/" target="_blank" rel="noopener noreferrer" className={styles.creditLink}>Puneeth</a>
+          </p>
         </footer>
 
       </div>
