@@ -2,7 +2,7 @@
 
 Website for **Dhaaga by Nayana** — a handmade crochet business selling flowers, plushies, coasters, accessories, and custom gifts.
 
-Live at [dhaaga.nayanamurthy.com](https://dhaaga.nayanamurthy.com) · Built with [Next.js 14](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/).
+Live at [dhaaga.nayanamurthy.com](https://dhaaga.nayanamurthy.com) · Built with [Next.js 16](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/).
 
 ## Features
 
